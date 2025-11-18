@@ -1,8 +1,21 @@
-/*------------------------------------------------
-*
-* Theme Color - Aqua
+/***********************
+
+https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a 
+000814 - DARK NAVY 
+001D3D - MID NAVY
+003566 - NAVY
+FFD60A - YELLOW
+
 *
 -------------------------------------------------*/
+
+body, div, p {
+     font-family: "Old Standard TT", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "BBH Sans Bogle", sans-serif;
+}
+
 .theme-color-aqua a:not([class^='button']):not([class^="link-social"]):not(.header-logo a):hover {
   color: #03D4D8;
 }
