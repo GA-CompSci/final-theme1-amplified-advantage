@@ -1,11 +1,31 @@
 /***********************
 
 https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a 
-000814 - DARK NAVY 
-001D3D - MID NAVY
-003566 - NAVY
-FFD60A - YELLOW
-7fc8f8 - BABY BLUE
+
+
+BLUES
+
+cool sky (lightest blue) - #60b6fb 
+dodger blue (slightly darker)- #1e96fc 
+royal blue (even darker) - #1360e2 
+persian blue (darkest) - #1360e2
+
+
+ GOLDS/YELLOWS
+
+  bright lemon (light yellow)- #fcf300 
+  bright gold - #fedd00 
+  School Bus Yellow - #ffc600 
+
+
+ WHITES/GREYS
+ 
+ 
+ pure white - #ffffff
+seashell ( light pink off white) - #f2e9e4
+platinum ( light silver) - #ebebeb
+ Ghost White (very light icy blue white) - #f4f4f9
+
 
 *
 -------------------------------------------------*/
@@ -26,4 +46,11 @@ FFD60A - YELLOW
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-style: italic;
+}
+
+
+/** NAV **/
+
+:root {
+    --swiper-theme-color: #007aff;
 }
