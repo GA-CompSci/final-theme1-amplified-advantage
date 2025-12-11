@@ -54,3 +54,89 @@ platinum ( light silver) - #ebebeb
 :root {
     --swiper-theme-color: #007aff;
 }
+
+
+
+/* ==================================== */
+/* 1. HERO SECTION CONTAINER (id="home") */
+/* ==================================== */
+#home {
+    /* Critical: Ensures the section takes up the full browser height */
+    height: 100vh !important; 
+    /* Provides a minimum height fallback for small screens */
+    min-height: 700px; 
+    
+    /* Ensures the background image is centered and covers the area, 
+       in case your theme script fails to set these properties */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    /* Sets the default text color for content inside the container */
+    color: #fff; 
+}
+
+/* ==================================== */
+/* 2. TEXT OVERLAY AND READABILITY */
+/* ==================================== */
+
+/* Targeting the h1 for maximum readability over any background image */
+#home .position-middle h1 {
+    /* Use a light color to contrast with the dark overlay */
+    color: #fff !important; 
+    
+    /* Adds a subtle shadow to make the text pop, regardless of the image details */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); 
+}
+
+/* Targeting the specific background overlay div used in your theme */
+.bg-dark-05 {
+    /* Ensures the overlay is positioned above the background image */
+    position: relative;
+    z-index: 2;
+    /* Ensure this overlay takes up the full space of the hero section */
+    height: 100%;
+    width: 100%;
+}
+
+/* ==================================== */
+/* 3. SCROLL DOWN ARROW */
+/* ==================================== */
+
+/* Styling the arrow icon to ensure it's visible on the bottom */
+#home .position-bottom a i {
+    /* Sets the color of the arrow icon */
+    color: #fff; 
+    /* Ensures the icon is visible above the dark overlay */
+    z-index: 3;
+    /* Optional: Add a smooth animation/transition */
+    transition: color 0.3s ease;
+}
+
+#home .position-bottom a:hover i {
+    /* Change color on hover for feedback */
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
