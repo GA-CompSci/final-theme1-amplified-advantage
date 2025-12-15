@@ -30,23 +30,23 @@ platinum ( light silver) - #ebebeb
 *
 -------------------------------------------------*/
 
-.old-standard-tt-regular {
-  font-family: "Old Standard TT", serif;
+
+/* Global body text */
+body {
+  font-family: "Slabo 27px", serif;
   font-weight: 400;
   font-style: normal;
+  color: #333333; /* optional default text color */
 }
 
-.old-standard-tt-bold {
-  font-family: "Old Standard TT", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.old-standard-tt-regular-italic {
-  font-family: "Old Standard TT", serif;
+/* Headers use Quintessential */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quintessential", serif;
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
+  color: #000080; /* optional heading color */
 }
+
 
 
 /** NAV **/
