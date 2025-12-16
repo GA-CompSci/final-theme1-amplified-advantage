@@ -51,9 +51,31 @@ h1, h2, h3, h4, h5, h6 {
 
 /** NAV **/
 
-:root {
-    --swiper-theme-color: #007aff;
+
+.header-menu {
+  background-color: #007aff;   /* blue background */
+  width: 100%;                 /* stretch across screen */
 }
+.header-menu .nav a {
+  color: #ffffff;
+}
+.header-menu .nav a:hover {
+  color: #ffc600;
+}
+
+
+
+
+
+nav ul {
+  margin: 0;                /* remove default spacing */
+  padding: 0;               /* remove default spacing */
+}
+
+nav a {
+  color: #092ae9; /* text color */
+}
+
 
 
 
